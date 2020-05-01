@@ -37,7 +37,9 @@
   "scripts": {
     "flow": "flow",
     "prettier": "prettier --write \"lib/**/*.js\" \"spec/**/*.js\"",
-    "build:docs": "markdox lib/plugin-api/hydrogen-provider.js lib/plugin-api/hydrogen-kernel.js -o docs/PluginAPI.md"
+    "build:docs": "markdox lib/plugin-api/hydrogen-provider.js lib/plugin-api/hydrogen-kernel.js -o docs/PluginAPI.md",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "atomTestRunner": "atom-jasmine3-test-runner",
   "repository": "https://github.com/nteract/hydrogen",
@@ -84,7 +86,8 @@
     "tildify": "^2.0.0",
     "uuid": "^3.2.1",
     "ws": "^3.3.1",
-    "xmlhttprequest": "^1.8.0"
+    "xmlhttprequest": "^1.8.0",
+    "snyk": "^1.316.1"
   },
   "consumedServices": {
     "status-bar": {
@@ -122,5 +125,6 @@
     "mobx-react-devtools": "^6.0.0",
     "prettier": "^1.14.3",
     "react-test-renderer": "^16.0.0"
-  }
+  },
+  "snyk": true
 }
