@@ -58,13 +58,13 @@
   },
   "dependencies": {
     "@babel/runtime-corejs2": "^7.0.0",
-    "@jupyterlab/services": "^3.0.1",
+    "@jupyterlab/services": "^6.0.0",
     "@nteract/commutable": "^7.0.0",
     "@nteract/markdown": "^4.0.0",
     "@nteract/mathjax": "^4.0.0",
     "@nteract/outputs": "^2.1.5",
     "@nteract/transform-plotly": "^5.0.0",
-    "@nteract/transform-vega": "^5.0.2",
+    "@nteract/transform-vega": "^7.0.0",
     "anser": "^1.4.4",
     "atom-select-list": "^0.7.0",
     "escape-carriage": "^1.2.0",
@@ -83,7 +83,7 @@
     "strip-indent": "^3.0.0",
     "tildify": "^2.0.0",
     "uuid": "^3.2.1",
-    "ws": "^3.3.1",
+    "ws": "^5.2.3",
     "xmlhttprequest": "^1.8.0"
   },
   "consumedServices": {
